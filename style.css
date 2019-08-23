@@ -1,0 +1,92 @@
+html,
+body {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    Sans-Serif;
+  line-height: 2;
+  font-size: 15px;
+  font-weight: 400;
+  margin: auto 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 2vh;
+  color: white;
+}
+.container {
+  background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2018/01/bailey-dog-meme-13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0%;
+  clear: both;
+}
+
+#title {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+#survey-form {
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  display: block;
+  background-color: rgba(123, 111, 0, 0.5);
+  padding: 10% 5% 10% 5%;
+}
+
+/* Add some margins for each label */
+#survey-form label {
+  margin: 5px 10px 5px 0;
+  display: inline-block;
+  height: 100%;
+}
+
+/* Style the input fields */
+#survey-form input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+#survey-form button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+#survey-form button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  #survey-form input {
+    margin: 10px 0;
+  }
+}
+#survey-form {
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 2fr;
+  margin: auto;
+}
+p {
+  text-align: center;
+  color: black;
+  font-size: 1.4em;
+  color: rgb(41, 179, 231);
+}
+h1 {
+  color: rgb(123, 111, 249);
+}
